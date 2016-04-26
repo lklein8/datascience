@@ -1,0 +1,31 @@
+demo <- read.csv("chsi_dataset(1)/DEMOGRAPHICS.csv")
+data <- read.csv("chsi_dataset(1)/DATAELEMENTDESCRIPTION.csv") 
+filenames <- list.files(path = "chsi_dataset(1)/", pattern = "*.csv")
+filenames[8]
+read.csv(filenames)
+data <- read.csv(paste0("chsi_dataset(1)/",filenames[1]))
+filenames[2]
+demo <- read.csv(paste0("chsi_dataset(1)/",filenames[3]))
+healthy <- read.csv(paste0("chsi_dataset(1)/",filenames[4]))
+death <- read.csv(paste0("chsi_dataset(1)/",filenames[5]))
+birth <- read.csv(paste0("chsi_dataset(1)/",filenames[6]))
+prevent <- read.csv(paste0("chsi_dataset(1)/",filenames[7]))
+relative <- read.csv(paste0("chsi_dataset(1)/", filenames[8]))
+risk <- read.csv(paste0("chsi_dataset(1)/",filenames[9]))
+summary_m <- read.csv(paste0("chsi_dataset(1)/",filenames[10]))
+vulnerable <- read.csv(paste0("chsi_dataset(1)/",filenames[11]))
+filenames <- list.files(path= ".", pattern = "*.csv")
+filenames <- list.files(path = "chsi_dataset(1)/", pattern = "*.csv")
+filenames[2]
+defi <- read.csv(paste0("chsi_dataset(1)/",filenames[2]))
+list.files(path = "food_habits/", pattern = "*.csv")
+c("filenames",12)
+list.files()
+list.files(path = "chsi_dataset(1)/", pattern = "*.csv")
+filenames[c(1,12)]
+filenames[4]
+food <- read.csv(paste0("chsi_dataset(1)/",filenames[12]))
+filenames <- list.files(path = "chsi_dataset(1)/", pattern = "*.csv")
+list.files("chsi_dataset(1)/")
+food <- read.csv("chsi_dateset(1)/",filenames[6])
+food <- read.csv("chsi_dataset(1)/food habits and obesity_all data.csv") 
